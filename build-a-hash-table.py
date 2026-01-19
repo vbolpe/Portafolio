@@ -1,5 +1,3 @@
-** start of main.py **
-
 class HashTable:
     def __init__(self):
         self.collection = {}
@@ -35,7 +33,3 @@ class HashTable:
             return self.collection[hash_key].get(key)
 
         return None
-
-
-** end of main.py **
-
